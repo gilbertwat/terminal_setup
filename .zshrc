@@ -94,3 +94,8 @@ export PATH="/Users/gilbert/.cargo/bin:$PATH"
 
 # broot for directory navigation in terminal.
 source /Users/gilbert/Library/Preferences/org.dystroy.broot/launcher/bash/br
+
+autoload -Uz compinit
+compinit
+# Completion for kitty
+kitty + complete setup zsh | source /dev/stdin
