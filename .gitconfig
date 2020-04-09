@@ -1,0 +1,23 @@
+[user]
+	name = Wat Chun Pang Gilbert
+	email = gilbert.wat@getthingsdone.hk
+[alias]
+    d = diff
+    dc = diff --cached
+    ca = commit --amend
+	co = checkout
+	st = status
+	sp = stash pop
+	su = stash save -u
+    po = push origin
+	cm = commit -m
+[core]
+	excludesfile = /Users/gilbert/.gitignore_global
+	editor = nvim
+[fetch]
+  prune = true
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	required = true
+	process = git-lfs filter-process
