@@ -1,16 +1,17 @@
 [user]
 	name = Wat Chun Pang Gilbert
-	email = gilbert.wat@getthingsdone.hk
+	email = g@chachaanteng.co
 [alias]
-    d = diff
-    dc = diff --cached
-    ca = commit --amend
+  d = diff
+  dc = diff --cached
+  ca = commit --amend
 	co = checkout
 	st = status
 	sp = stash pop
 	su = stash save -u
-    po = push origin
+  po = push origin
 	cm = commit -m
+  fap = fetch --all --prune
 [core]
 	excludesfile = /Users/gilbert/.gitignore_global
 	editor = nvim
